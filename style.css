@@ -57,12 +57,13 @@ body{
     
 }
 .head{
+    width: 50%;
     display: flex;
     align-items: center;
     gap: 20px;
 }
 select{
-    width:60%;
+    width:50%;
     height: 35px;
     border: 1px solid #e1dddd;
     border-radius: 3px;
@@ -97,12 +98,14 @@ select{
 }
 .child5{
     line-height: 25px;
-    padding: 8px 40px 8px 8px;
+    padding: 8px 40px 8px 12px;
     background-color:rgba(255, 255, 255, 0.255) ;
     color: #F25CFE;
     border-radius: 8px;
     grid-column: 2/3;
     grid-row: 4/5;
+    margin-bottom: 15px;
+    
 }
 .right-container{
    
@@ -121,8 +124,7 @@ select{
     grid-column: 1/2;
     grid-row: 1/2;
     height: 120px;
-    position: relative;
-     
+    position: relative;    
 }
 .rchild1 .time-child1{
    border-radius: 10px;
@@ -215,13 +217,13 @@ select{
     }
     .first1{
         height: 60px;
-        width: 50px;
+        width: 52px;
         font-size: 18px;
        
     }
     .second{
         height: 60px;
-        width: 50px;
+        width: 52px;
         font-size: 18px;
 
     }
@@ -266,7 +268,7 @@ select{
         
     }
     .rchild1 .time-child3{
-        gap: 10px;
+        gap: 20px;
     }
     .rchild2 h2{
         font-size: 15px;
