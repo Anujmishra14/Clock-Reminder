@@ -162,7 +162,12 @@ select{
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.first1{
+.first1box{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #F6E2FF;
     height: 78px;
     width: 75px;
