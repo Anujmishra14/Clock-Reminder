@@ -85,12 +85,13 @@ select{
     background:linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
     border: none;
     width: 250px;
-    height: 40px;
+    height: 60px;
     border-radius: 5px;
     font-size: larger;
 
     
 }
+
 .child5{
     line-height: 25px;
     padding: 8px 40px 8px 12px;
@@ -258,6 +259,7 @@ select{
     }
     .child4 button{
         width: 90%;
+     
     }
     .child5{
         grid-column: 1/2;
