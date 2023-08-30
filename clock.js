@@ -14,7 +14,7 @@ function realclocktime() {
 
   let greeting =document.querySelector("#greeting")
   if (newhour >= 12 && newhour <16) {
-    greeting.innerText = "GOOD!! AFTERNOON!!"
+    greeting.innerText = "GOOD!! AFTERNOON!! TAKE SOME SLEEP"
   }
   if (newhour >= 16 && newhour < 20) {
     greeting.innerText = "GOOD!! EVENING!!"
